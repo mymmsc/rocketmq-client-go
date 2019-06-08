@@ -14,19 +14,19 @@ var (
 	group        string
 	tags         string
 	topic        string
-	isPull       bool
+	model        string
 )
 
 func init() {
 	flag.StringVar(&namesrvAddrs, "n", "", "name server address")
-	flag.BoolVar(&isPull, "m", true, "pull if true, else push")
+	flag.StringVar(&model, "m", "pull", `"pull" or "push"`)
 	flag.StringVar(&topic, "t", "", "topic")
 	flag.StringVar(&group, "g", "", "group")
 	flag.StringVar(&tags, "a", "", "tags")
 }
 
-// push consumer: go run -n 10.20.200.198:9988 -m=false -t=topic_name
-// pull consumer: go run -n 10.20.200.198:9988 -m=true -t=topic_name
+// push consumer: go run -n 10.20.200.198:9988 -m=pull -t=topic_name
+// pull consumer: go run -n 10.20.200.198:9988 -m=push -t=topic_name
 func main() {
 	flag.Parse()
 
@@ -40,10 +40,13 @@ func main() {
 		return
 	}
 
-	if isPull {
+	if model == "pull" {
 		runPull()
-	} else {
+	} else if model == "push" {
 		runPush()
+	} else {
+		println("bad model:" + model)
+		return
 	}
 }
 
