@@ -1,2 +1,13 @@
-*.log
-main
+.DS_Store
+.idea/
+target/
+*.iml
+assembly/version.env
+assembly/version.properties
+
+# VS CODE
+.vscode/
+.classpath
+.factorypath
+.project
+.settings/
