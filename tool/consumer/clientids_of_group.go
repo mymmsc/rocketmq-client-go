@@ -53,7 +53,7 @@ func (c *clientIDsOfGroupFetcher) Run(args []string) {
 	}
 
 	logger := log.Std
-	a := admin.NewAdmin([]string{"ignore me"}, logger)
+	a := admin.New("tool-clientids", []string{"ignore me"}, logger)
 	a.Start()
 
 	ids, err := a.GetConsumerIDs(c.brokerAddr, c.group)

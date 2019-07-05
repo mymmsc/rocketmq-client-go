@@ -24,15 +24,15 @@ type Admin struct {
 	logger log.Logger
 }
 
-// NewAdmin create admin operator
-func NewAdmin(namesAdders []string, logger log.Logger) *Admin {
+// New create admin operator
+func New(group string, namesAdders []string, logger log.Logger) *Admin {
 	a := &Admin{
 		Client: rocketmq.Client{
 			HeartbeatBrokerInterval:       30 * time.Second,
 			PollNameServerInterval:        30 * time.Second,
 			PersistConsumerOffsetInterval: 5 * time.Second,
 			NameServerAddrs:               namesAdders,
-			GroupName:                     "admin_ext_group",
+			GroupName:                     group,
 		},
 	}
 	a.StartFunc = a.start
@@ -107,8 +107,8 @@ func (a *Admin) Group() string {
 	return a.GroupName
 }
 
-// CreateOrUpdateTopic create a new topic
-func (a *Admin) CreateOrUpdateTopic(topic string, perm, queueCount int32) error {
+// CreateOrUpdateTopic create a new topic in the broker
+func (a *Admin) CreateOrUpdateTopic(brokerAddr, topic string, perm, queueCount int32) error {
 	header := &rpc.CreateOrUpdateTopicHeader{
 		Topic:           topic,
 		ReadQueueNums:   queueCount,
@@ -117,10 +117,9 @@ func (a *Admin) CreateOrUpdateTopic(topic string, perm, queueCount int32) error 
 		Perm:            perm,
 		TopicFilterType: SingleTag.String(),
 	}
-	for _, address := range a.NameServerAddrs {
-		if err := a.client.CreateOrUpdateTopic(address, header, 3*time.Second); err != nil {
-			return err
-		}
+
+	if err := a.client.CreateOrUpdateTopic(brokerAddr, header, 3*time.Second); err != nil {
+		return err
 	}
 	return nil
 }

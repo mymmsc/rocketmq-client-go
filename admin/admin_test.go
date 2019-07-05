@@ -20,7 +20,7 @@ var (
 func TestAdmin(t *testing.T) {
 	logger := log.Std
 	namesrvAddrs := []string{"10.200.20.54:9988", "10.200.20.25:9988"}
-	a := NewAdmin(namesrvAddrs, logger)
+	a := New("TestAdmin", namesrvAddrs, logger)
 	assert.Nil(t, a.Start())
 
 	assert.Equal(t, a.State, rocketmq.StateRunning)
@@ -55,6 +55,6 @@ func createTopicOrUpdate(a *Admin, t *testing.T) {
 	a.client = &fakeMQClient{
 		fakeBrokerAddrs: make(map[string]string),
 	}
-	err := a.CreateOrUpdateTopic("Topic", 6, 16)
+	err := a.CreateOrUpdateTopic("addr", "Topic", 6, 16)
 	assert.Nil(t, err)
 }
