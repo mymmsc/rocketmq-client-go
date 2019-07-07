@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zjykzk/rocketmq-client-go/remote"
+	"github.com/mymmsc/go-rocketmq-client/v1/remote"
 )
 
 type queryConsumerOffsetRequestHeader struct {

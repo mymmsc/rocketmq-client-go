@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zjykzk/rocketmq-client-go/executor"
+	"github.com/mymmsc/go-rocketmq-client/v1/executor"
 
-	"github.com/zjykzk/rocketmq-client-go/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
 )
 
 const defaultBufferSize = 16 * 1024

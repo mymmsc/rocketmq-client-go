@@ -10,7 +10,7 @@ import (
 
 	"github.com/klauspost/compress/zlib"
 
-	"github.com/zjykzk/rocketmq-client-go/buf"
+	"github.com/mymmsc/go-rocketmq-client/v1/buf"
 )
 
 // Message the message

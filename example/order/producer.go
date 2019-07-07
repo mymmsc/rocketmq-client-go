@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zjykzk/rocketmq-client-go/message"
-	"github.com/zjykzk/rocketmq-client-go/producer"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/producer"
 )
 
 type messageQueueSelector struct{}

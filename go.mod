@@ -1,4 +1,4 @@
-module github.com/zjykzk/rocketmq-client-go
+module github.com/mymmsc/go-rocketmq-client/v1
 
 require (
 	github.com/klauspost/compress v1.4.1

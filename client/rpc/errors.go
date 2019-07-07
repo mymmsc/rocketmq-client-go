@@ -3,7 +3,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/zjykzk/rocketmq-client-go/remote"
+	"github.com/mymmsc/go-rocketmq-client/v1/remote"
 )
 
 // Error rpc error wraper

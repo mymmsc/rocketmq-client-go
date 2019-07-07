@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/zjykzk/rocketmq-client-go/client"
-	"github.com/zjykzk/rocketmq-client-go/client/rpc"
-	"github.com/zjykzk/rocketmq-client-go/message"
-	"github.com/zjykzk/rocketmq-client-go/route"
+	"github.com/mymmsc/go-rocketmq-client/v1/client"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 )
 
 type fakeMQClient struct {

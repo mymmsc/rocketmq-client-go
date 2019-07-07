@@ -7,8 +7,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/zjykzk/rocketmq-client-go/client"
-	"github.com/zjykzk/rocketmq-client-go/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/client"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zjykzk/rocketmq-client-go/consumer/internel/tree"
-	"github.com/zjykzk/rocketmq-client-go/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/consumer/internel/tree"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 const (

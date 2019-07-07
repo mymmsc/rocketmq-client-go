@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zjykzk/rocketmq-client-go/client/rpc"
-	"github.com/zjykzk/rocketmq-client-go/log"
-	"github.com/zjykzk/rocketmq-client-go/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 type fakeTaskScheduler struct{}

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zjykzk/rocketmq-client-go/log"
-	"github.com/zjykzk/rocketmq-client-go/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 type fakeOffsetRemoteOper struct {

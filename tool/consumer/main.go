@@ -8,9 +8,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/zjykzk/rocketmq-client-go/consumer"
-	"github.com/zjykzk/rocketmq-client-go/log"
-	"github.com/zjykzk/rocketmq-client-go/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/consumer"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 var (

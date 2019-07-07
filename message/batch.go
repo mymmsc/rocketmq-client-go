@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/zjykzk/rocketmq-client-go"
-	"github.com/zjykzk/rocketmq-client-go/buf"
+	"github.com/mymmsc/go-rocketmq-client/v1"
+	"github.com/mymmsc/go-rocketmq-client/v1/buf"
 )
 
 var (

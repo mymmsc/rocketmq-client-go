@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zjykzk/rocketmq-client-go/consumer"
-	"github.com/zjykzk/rocketmq-client-go/log"
-	"github.com/zjykzk/rocketmq-client-go/message"
-	"github.com/zjykzk/rocketmq-client-go/tool/command"
+	"github.com/mymmsc/go-rocketmq-client/v1/consumer"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/tool/command"
 )
 
 type pullByQueue struct {

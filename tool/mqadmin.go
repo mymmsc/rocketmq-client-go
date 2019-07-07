@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/zjykzk/rocketmq-client-go/tool/command"
+	"github.com/mymmsc/go-rocketmq-client/v1/tool/command"
 
-	_ "github.com/zjykzk/rocketmq-client-go/tool/admin"
-	_ "github.com/zjykzk/rocketmq-client-go/tool/consumer"
-	_ "github.com/zjykzk/rocketmq-client-go/tool/message"
+	_ "github.com/mymmsc/go-rocketmq-client/v1/tool/admin"
+	_ "github.com/mymmsc/go-rocketmq-client/v1/tool/consumer"
+	_ "github.com/mymmsc/go-rocketmq-client/v1/tool/message"
 )
 
 func main() {

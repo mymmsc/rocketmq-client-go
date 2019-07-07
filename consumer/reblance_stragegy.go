@@ -3,7 +3,7 @@ package consumer
 import (
 	"errors"
 
-	"github.com/zjykzk/rocketmq-client-go/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 // Averagely reblance average

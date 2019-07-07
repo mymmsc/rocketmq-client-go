@@ -3,8 +3,8 @@ package producer
 import (
 	"time"
 
-	"github.com/zjykzk/rocketmq-client-go/client"
-	"github.com/zjykzk/rocketmq-client-go/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/client"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
 )
 
 type mqClient interface {

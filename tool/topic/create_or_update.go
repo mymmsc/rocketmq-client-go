@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zjykzk/rocketmq-client-go"
-	"github.com/zjykzk/rocketmq-client-go/admin"
-	"github.com/zjykzk/rocketmq-client-go/log"
-	"github.com/zjykzk/rocketmq-client-go/route"
+	"github.com/mymmsc/go-rocketmq-client/v1"
+	"github.com/mymmsc/go-rocketmq-client/v1/admin"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 )
 
 var (

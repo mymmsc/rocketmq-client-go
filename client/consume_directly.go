@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/zjykzk/rocketmq-client-go/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
 )
 
 // ConsumeDirectlyResult the flag of the consuming directly

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zjykzk/rocketmq-client-go/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 
 	"github.com/stretchr/testify/assert"
 )
