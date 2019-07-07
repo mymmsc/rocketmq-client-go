@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
-	"github.com/mymmsc/go-rocketmq-client/v1/route"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/route"
 )
 
 type fakeProducer struct {

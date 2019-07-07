@@ -3,8 +3,8 @@ package client
 import (
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
-	"github.com/mymmsc/go-rocketmq-client/v1/route"
+	"github.com/mymmsc/go-rocketmq-client/v2/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v2/route"
 )
 
 // DeleteTopicInNamesrv delete topic in the broker

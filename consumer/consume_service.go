@@ -1,8 +1,8 @@
 package consumer
 
 import (
-	"github.com/mymmsc/go-rocketmq-client/v1/client"
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/client"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
 )
 
 type consumeService interface {

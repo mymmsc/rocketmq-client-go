@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/mymmsc/go-rocketmq-client/v1/route"
+	"github.com/mymmsc/go-rocketmq-client/v2/route"
 )
 
 func TestParseTopicRouter(t *testing.T) {

@@ -3,7 +3,7 @@ package client
 import (
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v2/client/rpc"
 )
 
 // CreateOrUpdateTopic create topic from broker

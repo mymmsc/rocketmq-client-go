@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v2/log"
 )
 
 type command interface {

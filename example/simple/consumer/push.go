@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/consumer"
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/consumer"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
 )
 
 type simpleConsumer struct{}

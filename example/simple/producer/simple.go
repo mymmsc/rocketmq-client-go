@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
-	"github.com/mymmsc/go-rocketmq-client/v1/producer"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/producer"
 )
 
 func sendSimple(p *producer.Producer) (*producer.SendResult, error) {

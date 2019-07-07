@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
-	"github.com/mymmsc/go-rocketmq-client/v1/producer"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/producer"
 )
 
 func sendBatch(p *producer.Producer) (*producer.SendResult, error) {

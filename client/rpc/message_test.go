@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/mymmsc/go-rocketmq-client/v1"
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
-	"github.com/mymmsc/go-rocketmq-client/v1/remote"
+	"github.com/mymmsc/go-rocketmq-client/v2"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/remote"
 )
 
 type fakeRemoteClient struct {

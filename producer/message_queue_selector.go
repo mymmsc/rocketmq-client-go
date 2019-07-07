@@ -1,6 +1,6 @@
 package producer
 
-import "github.com/mymmsc/go-rocketmq-client/v1/message"
+import "github.com/mymmsc/go-rocketmq-client/v2/message"
 
 // MessageQueueSelector select the message queue
 type MessageQueueSelector interface {

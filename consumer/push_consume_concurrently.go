@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/client"
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/client"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
 )
 
 // ConsumeConcurrentlyStatus consume concurrently result

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/remote"
+	"github.com/mymmsc/go-rocketmq-client/v2/remote"
 )
 
 // BrokerRuntimeInfo returns the broker runtime information.

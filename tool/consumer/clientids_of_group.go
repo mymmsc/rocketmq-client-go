@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/admin"
-	"github.com/mymmsc/go-rocketmq-client/v1/log"
-	"github.com/mymmsc/go-rocketmq-client/v1/tool/command"
+	"github.com/mymmsc/go-rocketmq-client/v2/admin"
+	"github.com/mymmsc/go-rocketmq-client/v2/log"
+	"github.com/mymmsc/go-rocketmq-client/v2/tool/command"
 )
 
 func init() {

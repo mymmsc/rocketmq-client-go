@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/remote"
+	"github.com/mymmsc/go-rocketmq-client/v2/remote"
 )
 
 type getConsumerIDsHeader string

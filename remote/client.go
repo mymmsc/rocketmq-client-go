@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/executor"
-	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v2/executor"
+	"github.com/mymmsc/go-rocketmq-client/v2/log"
 )
 
 // Client exchange the message with server

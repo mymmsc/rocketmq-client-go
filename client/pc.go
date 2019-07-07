@@ -3,8 +3,8 @@ package client
 import (
 	"sync"
 
-	"github.com/mymmsc/go-rocketmq-client/v1/message"
-	"github.com/mymmsc/go-rocketmq-client/v1/route"
+	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v2/route"
 )
 
 // Producer interface needed by reblance

@@ -1,6 +1,6 @@
 package producer
 
-import "github.com/mymmsc/go-rocketmq-client/v1/message"
+import "github.com/mymmsc/go-rocketmq-client/v2/message"
 
 type fakeMessageQueueSelector struct {
 	selectRet *message.Queue
