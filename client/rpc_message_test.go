@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/mymmsc/go-rocketmq-client/v2/client/rpc"
 	"github.com/mymmsc/go-rocketmq-client/v2/log"
 	"github.com/mymmsc/go-rocketmq-client/v2/remote"
+	"github.com/stretchr/testify/assert"
 )
 
 type fakeRemoteClient struct {

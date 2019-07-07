@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/mymmsc/go-rocketmq-client/v2/log"
+	"github.com/stretchr/testify/assert"
 )
 
 type fakeRequestProcessor struct {

@@ -22,8 +22,8 @@ const (
 	VIA
 	Transmeta
 	NSC
-	KVM  // Kernel-based Virtual Machine
-	MSVM // Microsoft Hyper-V or Windows Virtual PC
+	KVM   // Kernel-based Virtual Machine
+	MSVM  // Microsoft Hyper-V or Windows Virtual PC
 	VMware
 	XenHVM
 )
@@ -80,9 +80,9 @@ const (
 	STIBP                   // Single Thread Indirect Branch Predictors
 
 	// Performance indicators
-	SSE2SLOW // SSE2 is supported, but usually not faster
-	SSE3SLOW // SSE3 is supported, but usually not faster
-	ATOM     // Atom processor, some SSSE3 instructions are slower
+	SSE2SLOW  // SSE2 is supported, but usually not faster
+	SSE3SLOW  // SSE3 is supported, but usually not faster
+	ATOM      // Atom processor, some SSSE3 instructions are slower
 )
 
 var flagNames = map[Flags]string{
@@ -140,7 +140,6 @@ var flagNames = map[Flags]string{
 	SSE2SLOW: "SSE2SLOW", // SSE2 supported, but usually not faster
 	SSE3SLOW: "SSE3SLOW", // SSE3 supported, but usually not faster
 	ATOM:     "ATOM",     // Atom processor, some SSSE3 instructions are slower
-
 }
 
 // CPUInfo contains information about the detected system CPU.

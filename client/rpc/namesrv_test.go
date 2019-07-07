@@ -3,8 +3,8 @@ package rpc
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/mymmsc/go-rocketmq-client/v2/route"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestParseTopicRouter(t *testing.T) {

@@ -3,8 +3,8 @@ package producer
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestSelectOneQueueNotOf(t *testing.T) {

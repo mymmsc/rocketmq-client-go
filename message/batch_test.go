@@ -3,8 +3,8 @@ package message
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/mymmsc/go-rocketmq-client/v2"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestBatch(t *testing.T) {
