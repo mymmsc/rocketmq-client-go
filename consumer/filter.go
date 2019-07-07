@@ -1,7 +1,7 @@
 package consumer
 
 import (
-	"github.com/mymmsc/go-rocketmq-client/v2/client"
+	"github.com/mymmsc/go-rocketmq-client/v1/client"
 )
 
 // ExprType the filter type of the subcription

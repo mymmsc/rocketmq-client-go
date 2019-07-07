@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 // the data has following format:

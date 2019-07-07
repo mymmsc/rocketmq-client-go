@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v2"
-	"github.com/mymmsc/go-rocketmq-client/v2/buf"
+	"github.com/mymmsc/go-rocketmq-client/v1"
+	"github.com/mymmsc/go-rocketmq-client/v1/buf"
 )
 
 const (

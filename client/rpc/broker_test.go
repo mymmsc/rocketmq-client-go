@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/log"
-	"github.com/mymmsc/go-rocketmq-client/v2/remote"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/remote"
 )
 
 func TestBroker(t *testing.T) {

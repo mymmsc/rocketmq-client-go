@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v2"
-	"github.com/mymmsc/go-rocketmq-client/v2/client/rpc"
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v1"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 // SendMessageSync send message to the broker

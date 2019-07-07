@@ -3,7 +3,7 @@ package consumer
 import (
 	"sync"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 type brokerSuggester struct {

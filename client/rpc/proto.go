@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/mymmsc/go-rocketmq-client/v2/remote"
+import "github.com/mymmsc/go-rocketmq-client/v1/remote"
 
 // request code
 const (

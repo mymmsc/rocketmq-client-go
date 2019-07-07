@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/buf"
+	"github.com/mymmsc/go-rocketmq-client/v1/buf"
 )
 
 const (

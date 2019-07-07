@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
-	"github.com/mymmsc/go-rocketmq-client/v2/route"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 )
 
 // NOTE: donot modify directly

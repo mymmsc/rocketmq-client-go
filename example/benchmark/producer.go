@@ -30,9 +30,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/log"
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
-	"github.com/mymmsc/go-rocketmq-client/v2/producer"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/producer"
 )
 
 type statiBenchmarkProducerSnapshot struct {

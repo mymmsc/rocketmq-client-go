@@ -3,10 +3,10 @@ package admin
 import (
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/client"
-	"github.com/mymmsc/go-rocketmq-client/v2/client/rpc"
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
-	"github.com/mymmsc/go-rocketmq-client/v2/route"
+	"github.com/mymmsc/go-rocketmq-client/v1/client"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 )
 
 type mqClient interface {

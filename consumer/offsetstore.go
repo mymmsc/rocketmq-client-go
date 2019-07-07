@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 )
 
 var (

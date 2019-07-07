@@ -10,12 +10,12 @@ import (
 
 	"github.com/klauspost/compress/zlib"
 
-	"github.com/mymmsc/go-rocketmq-client/v2"
-	"github.com/mymmsc/go-rocketmq-client/v2/client"
-	"github.com/mymmsc/go-rocketmq-client/v2/client/rpc"
-	"github.com/mymmsc/go-rocketmq-client/v2/log"
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
-	"github.com/mymmsc/go-rocketmq-client/v2/route"
+	"github.com/mymmsc/go-rocketmq-client/v1"
+	"github.com/mymmsc/go-rocketmq-client/v1/client"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 )
 
 // Config the configuration of producer

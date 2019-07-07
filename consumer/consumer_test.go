@@ -3,10 +3,10 @@ package consumer
 import (
 	"testing"
 
-	"github.com/mymmsc/go-rocketmq-client/v2"
-	"github.com/mymmsc/go-rocketmq-client/v2/client"
-	"github.com/mymmsc/go-rocketmq-client/v2/log"
-	"github.com/mymmsc/go-rocketmq-client/v2/route"
+	"github.com/mymmsc/go-rocketmq-client/v1"
+	"github.com/mymmsc/go-rocketmq-client/v1/client"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 
 	"github.com/stretchr/testify/assert"
 )

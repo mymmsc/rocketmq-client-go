@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/fastjson"
-	"github.com/mymmsc/go-rocketmq-client/v2/remote"
-	"github.com/mymmsc/go-rocketmq-client/v2/route"
+	"github.com/mymmsc/go-rocketmq-client/v1/fastjson"
+	"github.com/mymmsc/go-rocketmq-client/v1/remote"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 )
 
 // DeleteTopicInNamesrv delete topic in the broker

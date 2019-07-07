@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/client/rpc"
-	"github.com/mymmsc/go-rocketmq-client/v2/log"
-	"github.com/mymmsc/go-rocketmq-client/v2/remote"
+	"github.com/mymmsc/go-rocketmq-client/v1/client/rpc"
+	"github.com/mymmsc/go-rocketmq-client/v1/log"
+	"github.com/mymmsc/go-rocketmq-client/v1/remote"
 
 	"github.com/stretchr/testify/assert"
 )

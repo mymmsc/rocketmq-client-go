@@ -3,7 +3,7 @@ package rpc
 import (
 	"testing"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/route"
+	"github.com/mymmsc/go-rocketmq-client/v1/route"
 	"github.com/stretchr/testify/assert"
 )
 

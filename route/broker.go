@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"sort"
 
-	"github.com/mymmsc/go-rocketmq-client/v2"
+	"github.com/mymmsc/go-rocketmq-client/v1"
 )
 
 // Broker describes broker

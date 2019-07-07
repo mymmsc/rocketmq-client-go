@@ -3,7 +3,7 @@ package producer
 import (
 	"testing"
 
-	"github.com/mymmsc/go-rocketmq-client/v2/message"
+	"github.com/mymmsc/go-rocketmq-client/v1/message"
 	"github.com/stretchr/testify/assert"
 )
 
